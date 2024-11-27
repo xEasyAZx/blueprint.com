@@ -1,0 +1,75 @@
+/* For some reason all the functions on the module are not working right for the tailwind stylesheet so i just made this to save time */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #202020; /* Dark gray background */
+    color: white;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1200px; /* Maximum width for the footer */
+    margin: auto; /* Centering the container */
+    padding: 0 1rem; /* Horizontal padding */
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Space between columns */
+}
+
+.quick-links,
+.follow-us {
+    margin-bottom: 1rem; /* Bottom margin for spacing */
+}
+
+.quick-links h2,
+.follow-us h2 {
+    font-size: 1rem; /* Heading size */
+    font-weight: bold;
+    margin-bottom: .5rem; /* Margin below heading */
+}
+
+.quick-links ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.quick-links li {
+    margin-bottom: .5rem; /* Space between links */
+}
+
+.quick-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.quick-links a:hover {
+    color: #A0AEC0; /* Change color on hover */
+}
+
+.follow-us {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.youtube-icon {
+    width: 32px; /* Icon size */
+    height: 32px;
+    fill: white; /* Icon color */
+    margin-left: .5rem; /* Space between text and icon */
+}
+
+.youtube-icon:hover {
+    fill: #A0AEC0; /* Change icon color on hover */
+}
+
+.footer-bottom {
+    text-align: center; /* Centered text for copyright notice */
+    margin-top: 1rem; /* Space above copyright text */
+}

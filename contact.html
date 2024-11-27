@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Blueprint</title>
+
+    <script type="module" crossorigin src="/webproject/js/index-DqciA4G0.js"></script>
+    <script type="module" crossorigin src="/webproject/js/navbar.js"></script>
+
+    <link rel="stylesheet" crossorigin href="/webproject/css/index-C9nVXZ9O.css">
+    <link rel="stylesheet" crossorigin href="/webproject/css/footer.css">
+    <link rel="stylesheet" crossorigin href="/webproject/css/otherstylesheet.css">
+    <style>
+        .hero-Download {
+        background-image: url("/webproject/images/DownloadHero.png");
+        background-size: cover;
+        background-position: center;
+        height: 90vh; /* Adjust this value as needed */
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        justify-content: center; /* Center items vertically */
+        align-items: center; /* Align items to the start (left) */
+        padding-left: 14rem; /* Add left padding for indentation */
+        padding-right: 14rem; /*Add right padding for indention */
+    }
+       </style>
+</head>
+<body>
+<header class="lg:px-14 px-4 bg-[#101010] flex flex-wrap items-center py-4 shadow-md transition-all duration-300 top-0 left-0 w-full z-50">
+    <div class="flex-1 flex justify-between items-center">
+        <a href="index.html">
+            <img src="https://i.ibb.co/dLMqm1r/Logo-3.png" alt="Blueprint Logo" class="h-10">
+        </a>
+    </div>
+    <label for="menu-toggle" class="pointer-cursor md:hidden block">
+        <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <title>menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+    </label>
+    <input class="hidden" type="checkbox" id="menu-toggle" />
+    <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+        <nav>
+            <ul class="md:flex items-center justify-between font-Bebas text-gray-400 pt-4 md:pt-0">
+                <li><a class="md:p-4 py-3 px-0 block" href="about.html">ABOUT</a></li>
+                <li><a class="md:p-4 py-3 px-0 block" href="features.html">FEATURES</a></li>
+                <li><a class="md:p-4 py-3 px-0 block" href="download.html">DOWNLOAD</a></li>
+                <li><a class="md:p-4 py-3 px-0 block" href="getinvolved.html">GET INVOLVED</a></li>
+                <li><a class="md:p-4 py-3 px-0 block" href="contact.html">CONTACT US</a></li>
+                <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="donate.html">DONATE</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero Section with Background Image -->
+<div class="relative w-screen hero-Download">
+
+     <!-- Buttons Container -->
+  
+
+    <!-- Centered Grid Items -->
+<div class="grid-container-contact text-left">
+
+  
+    <div class="group bg-[#2c2c2c] rounded-lg shadow-lg p-4 h-auto flex flex-col items-start">
+        <!-- News Item 1 -->
+        <div class="group rounded-lg shadow-lg p-4 h-max flex flex-col items-start">
+
+            <div class="contact-form-container bg-black shadow-lg">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                <div id="responseMessage"></div> <!-- Response message container -->
+            </div>
+
+          <h2 class="sm:text-3xl font-bold font-DMsans text-white mt-10 text-left">Have Feedback?</h2>
+
+          <p class="text-white mt-2 font-light font-DMsans sm:text-lg">
+              Why not give us a shout? At Blueprint, we value your input and are always eager to hear from our users. Whether it's a suggestion, question, or comment, your feedback helps us improve and ensure we're meeting your needs. Our team is dedicated to providing you with the best possible experience, and we’re here to listen and grow with you.
+          </p>
+          
+        </div> 
+        <!-- Add more news items as needed --> 
+    </div> 
+
+
+</div>
+
+</div>
+
+<!-- End of Hero Section -->
+
+<!-- App Container -->
+<div id="app"></div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="download.html">Download</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="getinvolved.html">Get Involved</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                </ul>
+            </div>
+
+            <div class="follow-us">
+                <h2>Follow Us</h2>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="youtube-icon">
+                        <path d="M23.498 6.186c-.273-1.057-1.073-1.857-2.13-1.857h-.002c-1.307 0-3.25.052-5.5.157-2.25.104-4.5.26-5.5.26s-3.25-.156-5.5-.26C1.607 4.329 0 5.129 0 6.186v11.628c0 1.057 1.607 1.857 2.368 1.857h.002c1.307 0 3.25-.052 5.5-.157 2.25-.104 4.5-.26 5.5-.26s3.25.156 5.5.26c1.12 0 2.13-.8 2.13-1.857V6.186zM9.545 15V9l6 3-6 3z"/>
+                    </svg>
+                </a>
+                <!-- Add more icons here as needed -->
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 Blueprint all rights reserved
+    </div>
+</footer>
+
+</body>
+</html>
